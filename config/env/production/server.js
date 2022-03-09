@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-    url: env('your-app-url'),
+    url: env('https://hotelstrapi.herokuapp.com/'),
     proxy: true,
     app: {keys: env.array('APP_KEYS',
      ['hotel-key',
